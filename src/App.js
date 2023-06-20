@@ -19,7 +19,7 @@ function App() {
     })
   }
   return (
-    <div>
+    <div className='todo'>
       
       <AddTodo item = {getItem}/>
       {todo && todo.map((todo, index) =>(
