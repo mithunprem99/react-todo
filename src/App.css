@@ -1,15 +1,15 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(12,236,206);
+  background-color: rgb(12, 236, 206);
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-.todo{
+.todo {
   display: flex;
   flex-direction: column;
   margin: 100px auto;
@@ -17,26 +17,26 @@ body{
   min-height: 400px;
   padding: 20px;
   background-color: #fff;
-  color: rgb(40,136,123);
+  color: rgb(40, 136, 123);
 }
 
-.todo-item{
+.todo-item {
   display: flex;
   justify-content: flex-start;
 }
 
-.ml-1{
+.ml-1 {
   margin-left: 10px;
 }
 
-form{
+form {
   display: flex;
   width: 100%;
   margin: 20px auto;
   justify-content: space-between;
 }
 
-form input{
+form input {
   width: 85%;
   padding: 7px;
   border: none;
@@ -44,13 +44,13 @@ form input{
   outline: none;
 }
 
-::placeholder{
+::placeholder {
   font-size: 15px;
   letter-spacing: 3px;
-  color:  #888;
+  color: #888;
 }
 
-form button{
+form button {
   background-color: transparent;
   border: 1px solid #999;
   width: 13%;
@@ -59,7 +59,7 @@ form button{
   padding: 7px;
 }
 
-button:hover{
+button:hover {
   background-color: #000;
   border-color: #000;
   color: #fff;
