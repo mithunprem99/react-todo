@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const TodoItems = () => {
+export const TodoItems = (props) => {
   return (
     <div>
-        <input type='checkbox' name='checkbox' />
-        <p>Hello world</p>
+        <input type='checkbox' name='checkbox' onChange={() => props.completed(props.id)}/>
+        {props.item}
     </div>
   )
 }
