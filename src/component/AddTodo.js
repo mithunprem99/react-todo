@@ -16,7 +16,7 @@ export const AddTodo = (props) => {
     return (
         <form method='POST' onSubmit={handleSubmit}>
             <input type='text' placeholder='Enter todos..' name='todo' value={item} onChange={handleChange} />
-            <button type='submit'>ADDD</button>
+            <button type='submit'>ADD</button>
         </form>
 
 
